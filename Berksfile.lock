@@ -3,7 +3,7 @@
     "eccube": {
       "locked_version": "0.1.0",
       "git": "git://github.com/closer/cookbook-eccube.git",
-      "ref": "790426b1d9927dc29cbd4ef892927b12893344e4"
+      "ref": "b2e8dad1b192f07429da287b4759327545656cf5"
     },
     "php": {
       "locked_version": "1.2.2"
