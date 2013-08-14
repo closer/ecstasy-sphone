@@ -40,7 +40,7 @@ Vagrant.configure("2") do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
 
   config.vm.synced_folder "./", "/var/www/eccube/data/Smarty/templates/sphone", :extra => "dmode=777,fmode=666"
-  config.vm.synced_folder "./_package", "/var/www/eccube/html/user_data/packages/sphone", :extra => "dmode=777,fmode=666"
+  config.vm.synced_folder "./_packages", "/var/www/eccube/html/user_data/packages/sphone", :extra => "dmode=777,fmode=666"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
