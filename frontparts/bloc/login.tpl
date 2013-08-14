@@ -23,15 +23,16 @@
 <nav class="top_menu clearfix">
     <!--{if $tpl_login}-->
         <ul>
-            <li><a rel="external" href="javascript:void(document.login_form_bloc.submit())"><img src="<!--{$TPL_URLPATH}-->img/icon/ico_login.png" width="22" height="21" alt="ログアウト" />ログアウト</a></li>
-            <li><a rel="external" href="<!--{$smarty.const.HTTPS_URL|sfTrimURL}-->/mypage/login.php" data-transition="slideup"><img src="<!--{$TPL_URLPATH}-->img/icon/ico_mypage.png" width="22" height="21" alt="MYページ" />MYページ</a></li>
-            <li><a rel="external" href="<!--{$smarty.const.CART_URLPATH|h}-->"><img src="<!--{$TPL_URLPATH}-->img/icon/ico_cart.png" width="22" height="21" alt="カートを見る" />カートを見る</a></li>
+            <li><a rel="external" href="javascript:void(document.login_form_bloc.submit())">LOGOUT</a></li>
+            <li><a rel="external" href="<!--{$smarty.const.HTTPS_URL|sfTrimURL}-->/mypage/login.php" data-transition="slideup">MYPAGE</a></li>
+            <li><a rel="external" href="<!--{$smarty.const.CART_URLPATH|h}-->">CART</a></li>
         </ul>
     <!--{else}-->
         <ul>
-            <li><a href="<!--{$smarty.const.HTTPS_URL|sfTrimURL}-->/mypage/login.php" data-transition="slideup"><img src="<!--{$TPL_URLPATH}-->img/icon/ico_login.png" width="22" height="21" alt="ログイン" />ログイン</a></li>
-            <li><a href="<!--{$smarty.const.HTTPS_URL|sfTrimURL}-->/mypage/login.php" data-transition="slideup"><img src="<!--{$TPL_URLPATH}-->img/icon/ico_mypage.png" width="22" height="21" alt="MYページ" />MYページ</a></li>
-            <li><a rel="external" href="<!--{$smarty.const.CART_URLPATH|h}-->"><img src="<!--{$TPL_URLPATH}-->img/icon/ico_cart.png" width="22" height="21" alt="カートを見る" />カートを見る</a></li>
+            <li><a href="<!--{$smarty.const.HTTPS_URL|sfTrimURL}-->/mypage/login.php" data-transition="slideup">LOGIN</a></li>
+            <li><a href="<!--{$smarty.const.HTTPS_URL|sfTrimURL}-->/mypage/login.php" data-transition="slideup">MYPAGE</a></li>
+            <li><a rel="external" href="<!--{$smarty.const.CART_URLPATH|h}-->">CART</a></li>
+            <li><a rel="external" href="<!--{$smarty.const.CART_URLPATH|h}-->">CATEGORY</a></li>
         </ul>
     <!--{/if}-->
 </nav>

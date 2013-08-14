@@ -21,7 +21,7 @@
  *}-->
 
 <header class="global_header clearfix">
-    <h1><a rel="external" href="<!--{$smarty.const.ROOT_URLPATH}-->"><img src="<!--{$TPL_URLPATH}-->img/header/logo.png" width="150" height="25" alt="<!--{$arrSiteInfo.shop_name|h}-->" /></a></h1>
+    <h1><a rel="external" href="<!--{$smarty.const.ROOT_URLPATH}-->"><img src="<!--{$TPL_URLPATH}-->img/header/logo.png" width="170" height="23" alt="<!--{$arrSiteInfo.shop_name|h}-->" /></a></h1>
     <div class="header_utility">
         <!--{* ▼HeaderInternal COLUMN *}-->
         <!--{if $arrPageLayout.HeaderInternalNavi|@count > 0}-->

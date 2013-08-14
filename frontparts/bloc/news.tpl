@@ -22,7 +22,7 @@
 
 <!-- ▼新着情報 -->
 <section id="news_area">
-    <h2 class="title_block">新着情報</h2>
+    <h2 class="title_block">NEWS</h2>
     <ul class="newslist">
         <!--{section name=data loop=$arrNews max=3}-->
             <li>

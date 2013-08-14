@@ -1,0 +1,20 @@
+.top_banner {
+  overflow: hidden;
+}
+
+.top_banner ul {
+}
+.top_banner ul li {
+}
+.top_banner ul li.large {
+}
+.top_banner ul li.half {
+  width: 50%;
+  float: left;
+}
+.top_banner ul li a {
+
+}
+.top_banner ul li a img {
+  background: #333;
+}

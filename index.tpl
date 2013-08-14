@@ -20,6 +20,14 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  *}-->
 
+<div class="top_banner">
+  <ul>
+    <li class="large"><a href=""><img src=""></a></li>
+    <li class="half"><a href=""><img src=""></a></li>
+    <li class="half"><a href=""><img src=""></a></li>
+  </ul>
+</div>
+
 <!-- ▼検索バー -->
 <section id="search_area">
     <form method="get" action="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">
@@ -28,4 +36,5 @@
         <input type="search" name="name" id="search" value="" placeholder="キーワードを入力" class="searchbox" />
     </form>
 </section>
-<!-- ▲検索バー -->
+<!-- ▲検索バ -->
+

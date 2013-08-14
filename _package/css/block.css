@@ -15,9 +15,7 @@ style info :ブロック用
     line-height: 20px;
     margin: 0;
     padding: 5px 10px 3px 10px;
-    background-color: #787E8A;
-    background: -moz-linear-gradient(center top, #787E8A 0%,#CBCDD0 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #787E8A),color-stop(1, #CBCDD0));
+    background-color: #f32b5f;
     border-top: #E1DCDA solid 1px;
     border-bottom: #B5B5B5 solid 2px;
     -webkit-box-shadow: 0 1px #FFF;

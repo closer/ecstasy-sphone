@@ -387,8 +387,8 @@ header h1 a {
     vertical-align: middle;
 }
 header h1 img {
-    width: 150px;
-    height: 25px;
+    width: 170px;
+    height: 23px;
     margin: -5px 0 0 0;
     padding: 0;
     vertical-align: middle;
@@ -515,7 +515,6 @@ hr.dashed {
 /*index menu/トップページヘッダー3列ボタン*/
 .top_menu {
     width: 100%;
-    margin-bottom: 10px;
     -webkit-box-shadow: 1px 5px 5px #ccc;
     -moz-box-shadow: 1px 5px 5px #ccc;
     background: #494E57;
@@ -528,7 +527,7 @@ hr.dashed {
     clear: both;
 }
 .top_menu ul li {
-    width: 33%;
+    width: 24.5%;
     float: left;
     text-align: center;
     border-left: #747B83 solid 1px;
