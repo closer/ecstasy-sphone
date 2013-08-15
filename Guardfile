@@ -3,5 +3,5 @@
 
 guard 'livereload' do
   watch(%r{.+\.(tpl)$})
-  watch(%r{_package/.+\.(css|js|jpg|gif|png|ico)})
+  watch(%r{_packages/.+\.(css|js|jpg|gif|png|ico)})
 end

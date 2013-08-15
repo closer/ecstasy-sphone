@@ -22,9 +22,21 @@
 
 <div class="top_banner">
   <ul>
-    <li class="large"><a href=""><img src=""></a></li>
-    <li class="half"><a href=""><img src=""></a></li>
-    <li class="half"><a href=""><img src=""></a></li>
+    <li class="large">
+      <a href="">
+        <img src="<!--{$TPL_URLPATH}-->img/banner/large.png" width="400" height="150" alt="<!--{$arrSiteInfo.shop_name|h}-->" />
+      </a>
+    </li>
+    <li class="half">
+      <a href="">
+        <img src="<!--{$TPL_URLPATH}-->img/banner/half.png" width="200" height="75" alt="<!--{$arrSiteInfo.shop_name|h}-->" />
+      </a>
+    </li>
+    <li class="half">
+      <a href="">
+        <img src="<!--{$TPL_URLPATH}-->img/banner/half.png" width="200" height="75" alt="<!--{$arrSiteInfo.shop_name|h}-->" />
+      </a>
+    </li>
   </ul>
 </div>
 
